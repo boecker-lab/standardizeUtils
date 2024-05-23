@@ -1,5 +1,6 @@
 # standardizeUtils
-A Python package for standardizing SMILES and InChI strings with PubChem.
+A Python package for standardizing SMILES and InChI strings with PubChem's Standardization Service.
+Standardization requests are called through [PubChem's PUG service](https://pubchem.ncbi.nlm.nih.gov/docs/power-user-gateway).
 
 ### Installation via pip:
 ```bash
