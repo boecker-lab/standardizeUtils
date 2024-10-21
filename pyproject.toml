@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+requires-python = ">= 3.8" 
+dependencies = [
+    "rdkit >= 2022.09.5",
+    "requests"
+    ]
+name = "standardizeUtils"
+version = "0.1"
+description = "Utilities for standardizing SMILES and InChI strings with PubChem or rdkit"
+readme = "README.md"
